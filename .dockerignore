@@ -1,0 +1,45 @@
+# Ignore everything by default
+**
+
+# Include only the microservice we want to build
+!ClienteService/pom.xml
+!ClienteService/src/
+
+# Ignore test folders
+ClienteService/src/test/
+
+# Ignore IDE and temporary files
+.idea/
+*.iml
+*.iws
+*.ipr
+.project
+.classpath
+.settings/
+.vscode/
+*.swp
+*.swo
+*.log
+logs/
+tmp/
+temp/
+*.tmp
+*.temp
+target/
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+.DS_Store
+Thumbs.db
+.git/
+.gitattributes
+.gitignore
+
+.env
+.env.*
+application-local.yml
+application-local.properties
